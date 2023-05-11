@@ -1,0 +1,12 @@
+name: iadb
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.8.16=h7a1cb2a_3
+  - pytorch=2.0.1=py3.8_cuda11.8_cudnn8.7.0_0
+  - pytorch-cuda=11.8=h7e8668a_5
+  - torchvision=0.15.2=py38_cu118
+  - pip:
+      - diffusers==0.16.1
