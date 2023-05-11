@@ -57,13 +57,11 @@ for current_epoch in range(100):
         x0 = torch.randn_like(x1)
         bs = x0.shape[0]
 
-
         alpha = torch.rand(bs, device=device)
         x_alpha = alpha.view(-1,1,1,1) * x1 + (1-alpha).view(-1,1,1,1) * x0
         
         d = model(x_alpha, alpha)['sample']
         loss = torch.sum((d - (x1-x0))**2)
-
 
         optimizer.zero_grad()
         loss.backward()
