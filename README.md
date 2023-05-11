@@ -1,5 +1,5 @@
 # Iterative α-(de)Blending: a Minimalist Deterministic Diffusion Model
-### [Project page](http://todo) | [Paper](http://todo)
+### [Project page](http://todo) | [Paper](https://arxiv.org/abs/2305.03486)
 <br />
 
 This repository is the official implementation of IADB ([Iterative α-(de)Blending: a Minimalist Deterministic Diffusion Model](https://arxiv.org/abs/2305.03486)), published at Siggraph 2023.
