@@ -34,7 +34,3 @@ This code has been tested with Python 3.8 on Ubuntu 22.04. We recommend setting 
 The iadb.py contains a simple training loop.
 
 It demonstrates how to train a new IADB model and how to generate results (using the provided sample_iadb function).
-
-# Citation
-
-TODO
