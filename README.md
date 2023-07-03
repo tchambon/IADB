@@ -1,13 +1,14 @@
 # Iterative α-(de)Blending: a Minimalist Deterministic Diffusion Model
-### [Project page](http://todo) | [Paper](https://arxiv.org/abs/2305.03486)
+### [Paper](https://arxiv.org/abs/2305.03486) | [Blog post](https://ggx-research.github.io/publication/2023/05/10/publication-iadb.html) | [2D tutorial](https://tchambon.github.io/posts/iadb-2D/)
 <br />
 
 This repository is the official implementation of IADB ([Iterative α-(de)Blending: a Minimalist Deterministic Diffusion Model](https://arxiv.org/abs/2305.03486)), published at Siggraph 2023.
 
 
+
 ![image](imgs/teaser.png)
 
-For additional information and explanations, please visit the [project page](http://todo).
+For a simple and intuitive explanation of our method, you can read our [blog post](https://ggx-research.github.io/publication/2023/05/10/publication-iadb.html) and check our [2D tutorial](https://tchambon.github.io/posts/iadb-2D/).
 
 
 # Quick start
